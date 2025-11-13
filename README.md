@@ -2,18 +2,18 @@
 **Live Demo:**  
 👉 [Click here to open the app](https://nellirishitha.github.io/MovieScope/)  
 
-## 📘 Project Overview
+##  Project Overview
 **MovieScope** is a movie information and recommendation web app that uses the **OMDb (Open Movie Database) API** to fetch real-time movie data.  
 Users can:
-- 🔍 Search movies by title or year  
-- 🎞️ View poster, genre, director, and IMDb rating  
-- 💖 Save movies to a personal **watchlist** (stored in local storage)  
-- 🎯 Get **recommended movies** based on the search  
-- 🌐 Access it directly on **GitHub Pages**
+-  Search movies by title or year  
+-  View poster, genre, director, and IMDb rating  
+-  Save movies to a personal **watchlist** (stored in local storage)  
+-  Get **recommended movies** based on the search  
+-  Access it directly on **GitHub Pages**
 
 ---
 
-## 🧠 Learning Focus
+##  Learning Focus
 - Using and understanding APIs  
 - Asynchronous JavaScript (`fetch` and `async/await`)  
 - Handling JSON data  
@@ -23,26 +23,27 @@ Users can:
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **API Used:** [OMDb API](https://www.omdbapi.com/)  
 - **Hosting:** GitHub Pages  
 
 ---
 
-## 🔑 API Details
+## API Details
 
-### ✅ API Used
+###  API Used
 **OMDb API** — Open Movie Database  
 Base URL:  
 https://www.omdbapi.com/
 
-### 🧩 Example API Call (GET Request)
+###  Example API Call (GET Request)
 ```javascript
 fetch(`https://www.omdbapi.com/?t=Inception&apikey=YOUR_API_KEY`)
   .then(response => response.json())
   .then(data => console.log(data));
 
+```
 **Parameters:**
 
 t → movie title
@@ -61,12 +62,13 @@ Response example:
   "Poster": "https://m.media-amazon.com/images/....jpg"
 }
 
-##** 🔍 Features**
+**Features**
 - Search movies by title/year using the OMDb API  
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
 - Get movie recommendations based on genre
-** Conclusion **
+- 
+**Conclusion**
 
 This project demonstrates:
 
