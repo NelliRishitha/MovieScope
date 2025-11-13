@@ -87,6 +87,18 @@ Saving and managing local data
 
 Deploying web projects using GitHub Pages
 
+
 <img width="1915" height="919" alt="Screenshot 2025-11-13 224434" src="https://github.com/user-attachments/assets/73e8a58b-d054-4988-937a-b76c6076cff8" />
+
+<img width="1895" height="928" alt="Screenshot 2025-11-13 224538" src="https://github.com/user-attachments/assets/084b7183-6c33-4c48-8e1c-9c19a2f7d0a8" />
+
+<img width="1895" height="928" alt="Screenshot 2025-11-13 224621" src="https://github.com/user-attachments/assets/9391ef59-8d5f-4e7b-860f-2620c5fe212c" />
+
+<img width="1887" height="783" alt="Screenshot 2025-11-13 224647" src="https://github.com/user-attachments/assets/8497b553-8bf0-48d3-bf94-3e277ae135fe" />
+
+<img width="1887" height="924" alt="Screenshot 2025-11-13 224718" src="https://github.com/user-attachments/assets/837c0763-d5f5-482f-a56c-5ec654f12737" />
+
+
+
 
 
