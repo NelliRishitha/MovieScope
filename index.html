@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MovieScope 🎬</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 MovieScope</h1>
+    <p>Search movies, view details, save watchlist, and get recommendations</p>
+  </header>
+
+  <main class="main-container">
+    <section class="search">
+      <input type="text" id="movieInput" placeholder="Enter movie title or year..." />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section class="content">
+      <!-- Left: searched movie -->
+      <div id="movieInfo" class="movie-info"></div>
+
+      <!-- Right: recommendations -->
+      <div class="recommendations">
+        <h2>Recommended Movies</h2>
+        <div id="recommendList" class="recommend-grid"></div>
+      </div>
+    </section>
+
+    <section class="watchlist">
+      <h2>Your Watchlist</h2>
+      <div id="watchlistItems"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieScope | Powered by OMDb API</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

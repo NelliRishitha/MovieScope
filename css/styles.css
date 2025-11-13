@@ -1,0 +1,148 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  text-align: center;
+  padding: 0;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  background: #161b22;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+header h1 {
+  color: #facc15;
+  margin: 0;
+}
+header p {
+  margin-top: 5px;
+  color: #a0a0a0;
+  font-size: 0.95rem;
+}
+
+/* Search bar */
+.search {
+  margin: 25px auto;
+}
+.search input {
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.search button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background: #facc15;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.search button:hover {
+  background: #eab308;
+  transform: scale(1.05);
+}
+
+/* Main content grid */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Movie info */
+.movie-info {
+  background: #161b22;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.movie-info img {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.movie-info button {
+  padding: 8px 12px;
+  background: #22c55e;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.movie-info button:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
+
+/* Recommendations */
+.recommendations h2 {
+  margin-bottom: 10px;
+}
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+.recommend-grid .movie-card {
+  background: #1f2937;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.recommend-grid .movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(250, 204, 21, 0.2);
+}
+.recommend-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+.recommend-grid h3 {
+  font-size: 0.9rem;
+  margin: 8px 0 0;
+}
+
+/* Watchlist */
+.watchlist {
+  margin-top: 40px;
+  background: #161b22;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 12px;
+}
+.watchlist h2 {
+  color: #facc15;
+  margin-bottom: 15px;
+}
+#watchlistItems p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  border-top: 1px solid #1f2937;
+}
