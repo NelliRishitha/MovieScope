@@ -44,6 +44,7 @@ fetch(`https://www.omdbapi.com/?t=Inception&apikey=YOUR_API_KEY`)
   .then(data => console.log(data));
 
 ```
+---
 ### **Parameters:**
 
 t → movie title
@@ -62,11 +63,15 @@ Response example:
   "Poster": "https://m.media-amazon.com/images/....jpg"
 }
 
+---
+
 ### **Features**
 - Search movies by title/year using the OMDb API  
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
 - Get movie recommendations based on genre
+
+---
 
 ### **Conclusion**
 
