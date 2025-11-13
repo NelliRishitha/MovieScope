@@ -2,33 +2,67 @@
 **Live Demo:**  
 👉 [Click here to open the app](https://nellirishitha.github.io/MovieScope/)  
 
-## 📖 About the Project
-MovieScope is a movie search and recommendation web app built using the **OMDb API**.  
-It allows users to:
-- 🔍 Search for movies by title or year  
+## 📘 Project Overview
+**MovieScope** is a movie information and recommendation web app that uses the **OMDb (Open Movie Database) API** to fetch real-time movie data.  
+Users can:
+- 🔍 Search movies by title or year  
 - 🎞️ View poster, genre, director, and IMDb rating  
-- 💖 Add movies to a personal watchlist (saved in local storage)  
-- 🎯 Get AI-powered recommended movies based on the search  
-- 🌐 Use it directly on GitHub Pages — no installation needed!  
+- 💖 Save movies to a personal **watchlist** (stored in local storage)  
+- 🎯 Get **recommended movies** based on the search  
+- 🌐 Access it directly on **GitHub Pages**
+
+---
 
 ## 🧠 Learning Focus
-- Fetching data using APIs  
-- Handling asynchronous JavaScript (async/await)  
-- Designing interactive and responsive interfaces  
+- Using and understanding APIs  
+- Asynchronous JavaScript (`fetch` and `async/await`)  
+- Handling JSON data  
+- Designing an interactive front-end interface  
+- Saving data with Local Storage  
+- Hosting projects with GitHub Pages  
 
-## 📦 Tech Stack
-- HTML, CSS, JavaScript  
-- OMDb API  
-- LocalStorage for saving watchlist  
--
+---
+
+## ⚙️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **API Used:** [OMDb API](https://www.omdbapi.com/)  
+- **Hosting:** GitHub Pages  
+
+---
+
+## 🔑 API Details
+
+### ✅ API Used
+**OMDb API** — Open Movie Database  
+Base URL:  
+https://www.omdbapi.com/
+
+### 🧩 Example API Call (GET Request)
+```javascript
+fetch(`https://www.omdbapi.com/?t=Inception&apikey=YOUR_API_KEY`)
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+Parameters:
+
+t → movie title
+
+y → year (optional)
+
+apikey → your personal OMDb API key
+
+Response example:
+{
+  "Title": "Inception",
+  "Year": "2010",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "Christopher Nolan",
+  "imdbRating": "8.8",
+  "Poster": "https://m.media-amazon.com/images/....jpg"
+}
 
 ## 🔍 Features
 - Search movies by title/year using the OMDb API  
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
 - Get movie recommendations based on genre  
-
-## 🚀 Setup
-1. Get an OMDb API key from https://www.omdbapi.com/apikey.aspx  
-2. Replace `YOUR_OMDB_API_KEY` in `js/app.js`  
-3. Open `index.html` in your browser or run via Live Server in VS Code  
