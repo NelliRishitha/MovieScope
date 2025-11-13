@@ -86,3 +86,7 @@ Building dynamic and user-friendly UI
 Saving and managing local data
 
 Deploying web projects using GitHub Pages
+
+<img width="1915" height="919" alt="Screenshot 2025-11-13 224434" src="https://github.com/user-attachments/assets/73e8a58b-d054-4988-937a-b76c6076cff8" />
+
+
