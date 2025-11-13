@@ -43,7 +43,7 @@ fetch(`https://www.omdbapi.com/?t=Inception&apikey=YOUR_API_KEY`)
   .then(response => response.json())
   .then(data => console.log(data));
 
-Parameters:
+**Parameters:**
 
 t → movie title
 
@@ -61,8 +61,21 @@ Response example:
   "Poster": "https://m.media-amazon.com/images/....jpg"
 }
 
-## 🔍 Features
+##** 🔍 Features**
 - Search movies by title/year using the OMDb API  
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
-- Get movie recommendations based on genre  
+- Get movie recommendations based on genre
+** Conclusion **
+
+This project demonstrates:
+
+Practical API integration using JavaScript
+
+Handling asynchronous web data
+
+Building dynamic and user-friendly UI
+
+Saving and managing local data
+
+Deploying web projects using GitHub Pages
