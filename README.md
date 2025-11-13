@@ -67,7 +67,7 @@ Response example:
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
 - Get movie recommendations based on genre
-- 
+
 **Conclusion**
 
 This project demonstrates:
