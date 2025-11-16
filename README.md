@@ -1,17 +1,104 @@
 # 🎬 MovieScope – Movie Info Search App
+**Live Demo:**  
+👉 [Click here to open the app](https://nellirishitha.github.io/MovieScope/)  
 
-## 🔍 Features
+##  Project Overview
+**MovieScope** is a movie information and recommendation web app that uses the **OMDb (Open Movie Database) API** to fetch real-time movie data.  
+Users can:
+-  Search movies by title or year  
+-  View poster, genre, director, and IMDb rating  
+-  Save movies to a personal **watchlist** (stored in local storage)  
+-  Get **recommended movies** based on the search  
+-  Access it directly on **GitHub Pages**
+
+---
+
+##  Learning Focus
+- Using and understanding APIs  
+- Asynchronous JavaScript (`fetch` and `async/await`)  
+- Handling JSON data  
+- Designing an interactive front-end interface  
+- Saving data with Local Storage  
+- Hosting projects with GitHub Pages  
+
+---
+
+##  Tech Stack
+- **Frontend:** HTML, CSS, JavaScript  
+- **API Used:** [OMDb API](https://www.omdbapi.com/)  
+- **Hosting:** GitHub Pages  
+
+---
+
+## API Details
+
+###  API Used
+**OMDb API** — Open Movie Database  
+Base URL:  
+https://www.omdbapi.com/
+
+###  Example API Call (GET Request)
+```javascript
+fetch(`https://www.omdbapi.com/?t=Inception&apikey=YOUR_API_KEY`)
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+```
+---
+### **Parameters:**
+
+t → movie title
+
+y → year (optional)
+
+apikey → your personal OMDb API key
+
+Response example:
+{
+  "Title": "Inception",
+  "Year": "2010",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "Christopher Nolan",
+  "imdbRating": "8.8",
+  "Poster": "https://m.media-amazon.com/images/....jpg"
+}
+
+---
+
+### **Features**
 - Search movies by title/year using the OMDb API  
 - Displays poster, genre, director, and IMDb rating  
 - Save favorite movies to watchlist (stored in localStorage)  
-- Get movie recommendations based on genre  
+- Get movie recommendations based on genre
 
-## 🚀 Setup
-1. Get an OMDb API key from https://www.omdbapi.com/apikey.aspx  
-2. Replace `YOUR_OMDB_API_KEY` in `js/app.js`  
-3. Open `index.html` in your browser or run via Live Server in VS Code  
+---
 
-## 📦 Tech Stack
-- HTML, CSS, JavaScript  
-- OMDb API  
-- LocalStorage  
+### **Conclusion**
+
+This project demonstrates:
+
+Practical API integration using JavaScript
+
+Handling asynchronous web data
+
+Building dynamic and user-friendly UI
+
+Saving and managing local data
+
+Deploying web projects using GitHub Pages
+
+
+<img width="1915" height="919" alt="Screenshot 2025-11-13 224434" src="https://github.com/user-attachments/assets/73e8a58b-d054-4988-937a-b76c6076cff8" />
+
+<img width="1895" height="928" alt="Screenshot 2025-11-13 224538" src="https://github.com/user-attachments/assets/084b7183-6c33-4c48-8e1c-9c19a2f7d0a8" />
+
+<img width="1895" height="928" alt="Screenshot 2025-11-13 224621" src="https://github.com/user-attachments/assets/9391ef59-8d5f-4e7b-860f-2620c5fe212c" />
+
+<img width="1887" height="783" alt="Screenshot 2025-11-13 224647" src="https://github.com/user-attachments/assets/8497b553-8bf0-48d3-bf94-3e277ae135fe" />
+
+<img width="1887" height="924" alt="Screenshot 2025-11-13 224718" src="https://github.com/user-attachments/assets/837c0763-d5f5-482f-a56c-5ec654f12737" />
+
+
+
+
+
